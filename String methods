@@ -1,0 +1,8 @@
+
+def getcs():
+    s=input("enter servername:")
+    db=input("enter database name:")
+    u=input("enter username:")
+    p=input("enter password:")
+    return "servername =%s; databasename=%s;username=%s;password=%s"%(s,db,u,p)
+
